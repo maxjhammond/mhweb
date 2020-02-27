@@ -37,7 +37,7 @@ const Main = props => {
           >
             <h2 className="major">Hey, I'm Max</h2>
             <p>
-              I'm a proffesional web developer currently working and living in
+              I'm a professional web developer currently working and living in
               Manchester, UK. I work full time at an eCommerce agency creating
               high quality, responsive websites for a large, varied clientele.
             </p>
@@ -47,7 +47,7 @@ const Main = props => {
               style updates.
             </p>
             <p>
-              Head to the about section to learn about my skillset in greater
+              Head to the about section to learn about my skill-set in greater
               detail!
             </p>
             <span className="image main">
