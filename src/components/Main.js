@@ -191,7 +191,7 @@ const Main = props => {
               or <a href="mailto:maxhweb@gmail.com">email</a> me. Alternatively,
               you can fill out the form below.
             </p>
-            <form method="post" netlify-honeypot="bot-field" netlify>
+            <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
               <p style={{display: 'none'}}>
                <input name="bot-field" />
               </p>
