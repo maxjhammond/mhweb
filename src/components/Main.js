@@ -192,6 +192,7 @@ const Main = props => {
               you can fill out the form below.
             </p>
             <form
+              action="/thank-you"
               name="contact"
               method="POST"
               data-netlify="true"
