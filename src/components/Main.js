@@ -191,9 +191,14 @@ const Main = props => {
               or <a href="mailto:maxhweb@gmail.com">email</a> me. Alternatively,
               you can fill out the form below.
             </p>
-            <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-              <p style={{display: 'none'}}>
-               <input name="bot-field" />
+            <form
+              name="contact"
+              method="POST"
+              data-netlify="true"
+              netlify-honeypot="bot-field"
+            >
+              <p style={{ display: 'none' }}>
+                <input name="bot-field" />
               </p>
               <div className="field half first">
                 <label htmlFor="name">Name</label>
@@ -209,11 +214,7 @@ const Main = props => {
               </div>
               <ul className="actions">
                 <li>
-                  <input
-                    type="submit"
-                    value="Send Message"
-                    className="special"
-                  />
+                  <button className="special">Send Message</button>
                 </li>
                 <li>
                   <input type="reset" value="Reset" />
