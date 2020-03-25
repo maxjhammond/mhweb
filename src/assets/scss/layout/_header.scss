@@ -72,8 +72,8 @@
       animation         : dash 5s ease forwards;
     }
 
-    &.blink{
-      animation: flicker 0.7s linear infinite;
+    &.blink {
+      animation : flicker 0.7s linear infinite;
     }
   }
 
@@ -85,40 +85,45 @@
 
   @keyframes flicker {
     0% {
-      opacity     : 0.8;
+      opacity : 0.8;
     }
     2% {
-      opacity     : 0.3;
+      opacity : 0.3;
     }
     4% {
-      opacity     : 1;
+      opacity : 1;
     }
     19% {
-      opacity     : 1;
+      opacity : 1;
     }
     21% {
-      opacity     : 0.5;
+      opacity : 0.5;
     }
     23% {
-      opacity     : 1;
+      opacity : 1;
     }
 
     80% {
-      opacity     : 1;
+      opacity : 1;
     }
     83% {
-      opacity     : 0.8;
+      opacity : 0.8;
     }
     87% {
-      opacity     : 1;
+      opacity : 1;
     }
   }
 
   .content {
-    border-style        : solid;
-    border-color        : _palette(border);
-    border-bottom-width : _size(border-width);
-    max-width           : 100%;
+    max-width : 100%;
+
+    &:after {
+      height     : 1px;
+      width      : 100%;
+      display    : block;
+      background : linear-gradient(to right, rgba(0, 0, 0, 0) 0%, _palette(border) 15%, _palette(border) 50%, _palette(border) 85%, rgba(0, 0, 0, 0) 100%);
+      content    : '';
+    }
 
     .inner {
       @include vendor(
@@ -161,7 +166,7 @@
       li {
         padding-left : 0;
         border-left  : groove _size(border-width) _palette(border);
-        margin       : 10px 0;
+        margin       : 8px 0;
         transform    : skew(-25deg);
 
         &::before {
@@ -175,8 +180,8 @@
         button {
           display        : block;
           min-width      : 8rem;
-          height         : 1.5rem;
-          line-height    : 1.5rem;
+          height         : 0.8rem;
+          line-height    : 0.6rem;
           padding        : 0 1.25rem 0 (1.25rem + _font(letter-spacing));
           text-transform : uppercase;
           letter-spacing : _font(letter-spacing);
