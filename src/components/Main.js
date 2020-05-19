@@ -65,53 +65,8 @@ const Main = props => {
           >
             <h2 className="major">Work</h2>
             <p>
-              Below you can find a list of some of the projects I have provided
-              front end development for as part of my full time employment.
+              I have acted as a key frontend developer for a multitude of projects for my full time job. Feel free to enquire about these projects with me.
             </p>
-            <div className="project-list">
-              <ul>
-                <li>
-                  <a
-                    href="https://herdy.co.uk"
-                    title="Herdy"
-                    target="_blank"
-                    rel="_nofollow"
-                  >
-                    Herdy
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://exercise.co.uk"
-                    title="Exercise Fitness"
-                    target="_blank"
-                    rel="_nofollow"
-                  >
-                    Exercise.co.uk
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://hestan.uk.com"
-                    title="Hestan Cookware"
-                    target="_blank"
-                    rel="_nofollow"
-                  >
-                    Hestan Cookware
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://anolon.co.uk"
-                    title="Herdy"
-                    target="_blank"
-                    rel="_nofollow"
-                  >
-                    Anolon Cookware
-                  </a>
-                </li>
-              </ul>
-            </div>
             <p>
               I have also fully designed and developed a few small projects,
               including static builds such as{' '}
@@ -155,10 +110,9 @@ const Main = props => {
                 <li>jQuery.js</li>
                 <li>Knockout.js</li>
                 <li>Node.js</li>
-                <li>Gulp</li>
+                <li>Gulp.js</li>
                 <li>JetBrains</li>
                 <li>VS Code</li>
-                <li>Adobe Photoshop</li>
               </ul>
             </div>
             <p>
