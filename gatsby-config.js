@@ -20,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'MH Web | Design & Development',
-        short_name: 'MH Web',
+        name: 'MX Web | Design & Development',
+        short_name: 'MX Web',
         start_url: '/',
         background_color: '#1b1f22',
         theme_color: '#C6FF01',

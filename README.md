@@ -1,3 +1,3 @@
-# MH Web - Portfolio for Max Hammond
+# MX Web - Portfolio for Max Hammond
 
 **Built with gatsby.js.**
