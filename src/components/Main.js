@@ -17,7 +17,7 @@ const Main = props => {
     <StaticQuery
       query={graphql`
         query imageQuery {
-          imageThree: file(relativePath: { eq: "03_spc_gry.png" }) {
+          imageThree: file(relativePath: { eq: "chrome.png" }) {
             ...fluidImage
           }
         }
@@ -96,7 +96,7 @@ const Main = props => {
             <div className="project-list">
               <ul>
                 <li>Javascript (ES6+)</li>
-                <li>(S)CSS</li>
+                <li>CSS (LESS/SASS)</li>
                 <li>HTML5</li>
                 <li>PHP7</li>
                 <li>JSX</li>
@@ -108,7 +108,6 @@ const Main = props => {
                 <li>Gatsby.js</li>
                 <li>React.js</li>
                 <li>jQuery.js</li>
-                <li>Knockout.js</li>
                 <li>Node.js</li>
                 <li>Gulp.js</li>
                 <li>JetBrains</li>

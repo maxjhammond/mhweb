@@ -33,6 +33,7 @@
     opacity          : 0;
     border           : 1px solid _palette(fg-light);
     position         : relative;
+    overflow         : hidden;
 
     &.timeout {
       display : none;

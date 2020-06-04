@@ -52,7 +52,7 @@
   }
 
   .logo {
-    width      : 50%;
+    width      : 57%;
     object-fit : contain;
     margin     : 0;
 
@@ -66,10 +66,10 @@
   svg {
     path {
       stroke            : _palette(fg-light);
-      stroke-width      : 15;
-      stroke-dasharray  : 12000;
-      stroke-dashoffset : 12000;
-      animation         : dash 5s ease forwards;
+      stroke-width      : 20px;
+      stroke-dasharray  : 11400;
+      stroke-dashoffset : 11400;
+      animation         : dash 4s linear forwards;
     }
 
     &.blink {
@@ -153,7 +153,8 @@
   }
 
   nav {
-    width : 100%;
+    width         : 100%;
+    margin-bottom : 2rem;
 
     ul {
       @include vendor('display', 'flex');
